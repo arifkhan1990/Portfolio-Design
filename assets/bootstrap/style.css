@@ -1,0 +1,345 @@
+
+
+body {
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	transition: all 500ms ease-in-out;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+}
+
+h1,h2,h4 {
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+p {
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.btn {
+	transition: all 300ms ease-in-out;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background-color: #ededed !important;
+	color: #3c3c3c !important;
+	border: 1px solid #fff !important; 
+}
+
+
+/*                Navigation                 */
+
+
+
+.navbar {
+	background-color: #333222 !important;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', Arial , sans-serif;
+	font-weight: 700;
+}
+
+.navbar a {
+	color: #fff !important;
+	opacity: 0.7;
+}
+
+.navbar a: hover {
+	opacity: 1;
+	background-color: #111111 !important;
+}
+
+
+/*        Header            */
+
+.header {
+	height: 700px;
+	width: 100%;
+	padding: 30px 0 30px;
+	margin-top: 50px;
+	background-image: url(../img/leaves3.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:  #3d0254 ;
+	text-align: center;
+	 font-family: 'Lato','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+h1.name {
+   display: block;
+   font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 2em;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header img {
+	height: 256px;
+	width: 257px;
+	margin: 70px 0 0 40px;
+
+}
+.header img.avtar {
+	width: 256px;
+	height: 257px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.header h1 {
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 30px;
+}
+
+.header h1, .header p, .header button {
+	margin-top: 20px;
+}
+
+
+.header .btn {
+	border-radius: 0;
+	margin: 40px 20px;
+}
+
+@media(max-width: 700px) {
+	
+	.header {
+		padding: 30px;
+		height: 750px;
+	}
+
+	.header img {
+		width: 90%;
+		height: 300px;
+		margin: 20px 0 0 20px;
+	}
+
+	.header .btn {
+		font-size: 10px;
+		margin-left: 20px;
+	}
+
+	.header h1 {
+		font-size: 20px;
+	}
+
+	.header p {
+		font-size: 10px;
+		color:   ;
+	}
+}
+
+p.textdec {
+	color:    #4a235a ;
+	font-size: 25px;
+}
+/*                 end Header                 */
+
+
+
+/*               Start-Line design  start        */
+
+hr.style-eight { 
+	overflow: visible; /* For IE */ 
+	padding: 0; 
+	border: none; 
+	border-top: medium double #333; 
+	color: #333; 
+	text-align: center; 
+	} 
+hr.style-eight:after { 
+	content: "§"; 
+	display: inline-block; 
+	position: relative; 
+	top: -0.7em; 
+	font-size: 1.5em; 
+	padding: 0 0.25em; 
+	background:  #27ae60 ; 
+}
+hr.style-eight1 { 
+	overflow: visible; /* For IE */ 
+	padding: 0; 
+	border: none; 
+	border-top: medium double #333; 
+	color: #333; 
+	text-align: center; 
+	max-width: 250px;
+	margin: 25px auto 30px;
+	} 
+hr.style-eight1:after { 
+	content: "§"; 
+	display: inline-block; 
+	position: relative; 
+	top: -0.7em; 
+	font-size: 1.5em; 
+	padding: 0 0.25em; 
+	background:   #007000; 
+}
+
+
+/*              End Start-Line design           */
+
+
+/*                  Work           */
+
+   .work {
+    padding: 50px 0 80px;
+    text-align: center;
+    background:  #2ecc71  ;
+   }
+
+/*CONTACT*/
+
+.contact {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+    background:  #58d68d  ;
+}
+
+.contact p {
+    
+    padding-bottom: 80px;
+    color: #737373;
+}
+
+.contact h2 {
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+.contact .input-group {
+    
+    margin-bottom: 25px;
+}
+
+.contact .form-control {
+    
+    border-radius: 0 !important;
+}
+
+.contact span {
+    
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+    
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color:   #9a7d0a;
+    color: #fff;
+}
+
+.contact .btn:hover {
+    
+    background-color: #1e8449 !important;
+    color: #fff !important;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    
+    padding: 30px;
+    color: #cccccc;
+    background-color:  #34495e;
+}
+
+
+.footer .social {
+    
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.social : hover {
+	background-color: #1e8449 !important;
+    color: #fff !important;
+}
+.footer input {
+    
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    border: none;
+    background-color: #cccccc;
+    color: #000;
+}
+
+.footer .btn {
+    
+    padding: 10px 5px 10px;
+    margin: -3px 0 0 5px;
+}
+
+
+
+.judge {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+    background:  #28b463 ;
+}
+
+.judge img {
+	height: 56px;
+	width: 57px;
+	margin: 10px 0 0 20px;
+
+}
+.judge img.avtar {
+	width: 56px;
+	height: 57px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+
+
+
+.footer_var {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	background:  #82e0aa;
+}
+
+.footer_var p  {
+     color: #4a235a ;
+	 font-size: 15px;
+	 margin: 0px 0px 0px 10px;
+	 padding: 15px;
+	}

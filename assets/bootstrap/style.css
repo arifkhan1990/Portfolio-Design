@@ -332,14 +332,14 @@ hr.style-eight1:after {
 
 .footer_var {
 	width: 100%;
-	height: 60px;
+	height: 72px;
 	text-align: center;
-	background:  #82e0aa;
+	background:     #5499c7 ;
 }
 
 .footer_var p  {
      color: #4a235a ;
-	 font-size: 15px;
+	 font-size: 16px;
 	 margin: 0px 0px 0px 10px;
 	 padding: 15px;
 	}
